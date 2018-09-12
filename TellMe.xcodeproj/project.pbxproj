@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEC57CC1212D864D00B738B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC57CC0212D864D00B738B3 /* AppDelegate.swift */; };
+		BEC57CC3212D864D00B738B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC57CC2212D864D00B738B3 /* ViewController.swift */; };
+		BEC57CC6212D864D00B738B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC57CC4212D864D00B738B3 /* Main.storyboard */; };
+		BEC57CC8212D864E00B738B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC57CC7212D864E00B738B3 /* Assets.xcassets */; };
+		BEC57CCB212D864E00B738B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC57CC9212D864E00B738B3 /* LaunchScreen.storyboard */; };
+		BEC57CD0212D864E00B738B3 /* TellMe WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BEC57CCF212D864E00B738B3 /* TellMe WatchKit App.app */; };
+		BEC57CD6212D864E00B738B3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC57CD4212D864E00B738B3 /* Interface.storyboard */; };
+		BEC57CD8212D864F00B738B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC57CD7212D864F00B738B3 /* Assets.xcassets */; };
+		BEC57CDF212D864F00B738B3 /* TellMe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BEC57CDE212D864F00B738B3 /* TellMe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BEC57CE4212D864F00B738B3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC57CE3212D864F00B738B3 /* InterfaceController.swift */; };
+		BEC57CE6212D864F00B738B3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC57CE5212D864F00B738B3 /* ExtensionDelegate.swift */; };
+		BEC57CE8212D864F00B738B3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC57CE7212D864F00B738B3 /* NotificationController.swift */; };
+		BEC57CEA212D865000B738B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC57CE9212D865000B738B3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC57CD1212D864E00B738B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC57CB5212D864D00B738B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC57CCE212D864E00B738B3;
+			remoteInfo = "TellMe WatchKit App";
+		};
+		BEC57CE0212D864F00B738B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC57CB5212D864D00B738B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC57CDD212D864F00B738B3;
+			remoteInfo = "TellMe WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEC57CF2212D865000B738B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BEC57CDF212D864F00B738B3 /* TellMe WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC57CF6212D865000B738B3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BEC57CD0212D864E00B738B3 /* TellMe WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BEC57CBD212D864D00B738B3 /* TellMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TellMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC57CC0212D864D00B738B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEC57CC2212D864D00B738B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC57CC5212D864D00B738B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC57CC7212D864E00B738B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC57CCA212D864E00B738B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC57CCC212D864E00B738B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC57CCF212D864E00B738B3 /* TellMe WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TellMe WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC57CD5212D864E00B738B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BEC57CD7212D864F00B738B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC57CD9212D864F00B738B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC57CDE212D864F00B738B3 /* TellMe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TellMe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC57CE3212D864F00B738B3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BEC57CE5212D864F00B738B3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BEC57CE7212D864F00B738B3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		BEC57CE9212D865000B738B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC57CEB212D865000B738B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC57CEC212D865000B738B3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC57CBA212D864D00B738B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC57CDB212D864F00B738B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC57CB4212D864D00B738B3 = {
+			isa = PBXGroup;
+			children = (
+				BEC57CBF212D864D00B738B3 /* TellMe */,
+				BEC57CD3212D864E00B738B3 /* TellMe WatchKit App */,
+				BEC57CE2212D864F00B738B3 /* TellMe WatchKit Extension */,
+				BEC57CBE212D864D00B738B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC57CBE212D864D00B738B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC57CBD212D864D00B738B3 /* TellMe.app */,
+				BEC57CCF212D864E00B738B3 /* TellMe WatchKit App.app */,
+				BEC57CDE212D864F00B738B3 /* TellMe WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC57CBF212D864D00B738B3 /* TellMe */ = {
+			isa = PBXGroup;
+			children = (
+				BEC57CC0212D864D00B738B3 /* AppDelegate.swift */,
+				BEC57CC2212D864D00B738B3 /* ViewController.swift */,
+				BEC57CC4212D864D00B738B3 /* Main.storyboard */,
+				BEC57CC7212D864E00B738B3 /* Assets.xcassets */,
+				BEC57CC9212D864E00B738B3 /* LaunchScreen.storyboard */,
+				BEC57CCC212D864E00B738B3 /* Info.plist */,
+			);
+			path = TellMe;
+			sourceTree = "<group>";
+		};
+		BEC57CD3212D864E00B738B3 /* TellMe WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BEC57CD4212D864E00B738B3 /* Interface.storyboard */,
+				BEC57CD7212D864F00B738B3 /* Assets.xcassets */,
+				BEC57CD9212D864F00B738B3 /* Info.plist */,
+			);
+			path = "TellMe WatchKit App";
+			sourceTree = "<group>";
+		};
+		BEC57CE2212D864F00B738B3 /* TellMe WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BEC57CE3212D864F00B738B3 /* InterfaceController.swift */,
+				BEC57CE5212D864F00B738B3 /* ExtensionDelegate.swift */,
+				BEC57CE7212D864F00B738B3 /* NotificationController.swift */,
+				BEC57CE9212D865000B738B3 /* Assets.xcassets */,
+				BEC57CEB212D865000B738B3 /* Info.plist */,
+				BEC57CEC212D865000B738B3 /* PushNotificationPayload.apns */,
+			);
+			path = "TellMe WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC57CBC212D864D00B738B3 /* TellMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC57CF7212D865000B738B3 /* Build configuration list for PBXNativeTarget "TellMe" */;
+			buildPhases = (
+				BEC57CB9212D864D00B738B3 /* Sources */,
+				BEC57CBA212D864D00B738B3 /* Frameworks */,
+				BEC57CBB212D864D00B738B3 /* Resources */,
+				BEC57CF6212D865000B738B3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC57CD2212D864E00B738B3 /* PBXTargetDependency */,
+			);
+			name = TellMe;
+			productName = TellMe;
+			productReference = BEC57CBD212D864D00B738B3 /* TellMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC57CCE212D864E00B738B3 /* TellMe WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC57CF3212D865000B738B3 /* Build configuration list for PBXNativeTarget "TellMe WatchKit App" */;
+			buildPhases = (
+				BEC57CCD212D864E00B738B3 /* Resources */,
+				BEC57CF2212D865000B738B3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC57CE1212D864F00B738B3 /* PBXTargetDependency */,
+			);
+			name = "TellMe WatchKit App";
+			productName = "TellMe WatchKit App";
+			productReference = BEC57CCF212D864E00B738B3 /* TellMe WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BEC57CDD212D864F00B738B3 /* TellMe WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC57CEF212D865000B738B3 /* Build configuration list for PBXNativeTarget "TellMe WatchKit Extension" */;
+			buildPhases = (
+				BEC57CDA212D864F00B738B3 /* Sources */,
+				BEC57CDB212D864F00B738B3 /* Frameworks */,
+				BEC57CDC212D864F00B738B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TellMe WatchKit Extension";
+			productName = "TellMe WatchKit Extension";
+			productReference = BEC57CDE212D864F00B738B3 /* TellMe WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC57CB5212D864D00B738B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ada 2018";
+				TargetAttributes = {
+					BEC57CBC212D864D00B738B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BEC57CCE212D864E00B738B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BEC57CDD212D864F00B738B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BEC57CB8212D864D00B738B3 /* Build configuration list for PBXProject "TellMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC57CB4212D864D00B738B3;
+			productRefGroup = BEC57CBE212D864D00B738B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC57CBC212D864D00B738B3 /* TellMe */,
+				BEC57CCE212D864E00B738B3 /* TellMe WatchKit App */,
+				BEC57CDD212D864F00B738B3 /* TellMe WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC57CBB212D864D00B738B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC57CCB212D864E00B738B3 /* LaunchScreen.storyboard in Resources */,
+				BEC57CC8212D864E00B738B3 /* Assets.xcassets in Resources */,
+				BEC57CC6212D864D00B738B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC57CCD212D864E00B738B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC57CD8212D864F00B738B3 /* Assets.xcassets in Resources */,
+				BEC57CD6212D864E00B738B3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC57CDC212D864F00B738B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC57CEA212D865000B738B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC57CB9212D864D00B738B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC57CC3212D864D00B738B3 /* ViewController.swift in Sources */,
+				BEC57CC1212D864D00B738B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC57CDA212D864F00B738B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC57CE8212D864F00B738B3 /* NotificationController.swift in Sources */,
+				BEC57CE6212D864F00B738B3 /* ExtensionDelegate.swift in Sources */,
+				BEC57CE4212D864F00B738B3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC57CD2212D864E00B738B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC57CCE212D864E00B738B3 /* TellMe WatchKit App */;
+			targetProxy = BEC57CD1212D864E00B738B3 /* PBXContainerItemProxy */;
+		};
+		BEC57CE1212D864F00B738B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC57CDD212D864F00B738B3 /* TellMe WatchKit Extension */;
+			targetProxy = BEC57CE0212D864F00B738B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEC57CC4212D864D00B738B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC57CC5212D864D00B738B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC57CC9212D864E00B738B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC57CCA212D864E00B738B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC57CD4212D864E00B738B3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC57CD5212D864E00B738B3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC57CED212D865000B738B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEC57CEE212D865000B738B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC57CF0212D865000B738B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SH46749RP;
+				INFOPLIST_FILE = "TellMe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = academy.TellMe.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		BEC57CF1212D865000B738B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SH46749RP;
+				INFOPLIST_FILE = "TellMe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = academy.TellMe.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		BEC57CF4212D865000B738B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SH46749RP;
+				IBSC_MODULE = TellMe_WatchKit_Extension;
+				INFOPLIST_FILE = "TellMe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = academy.TellMe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		BEC57CF5212D865000B738B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SH46749RP;
+				IBSC_MODULE = TellMe_WatchKit_Extension;
+				INFOPLIST_FILE = "TellMe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = academy.TellMe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		BEC57CF8212D865000B738B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SH46749RP;
+				INFOPLIST_FILE = TellMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = academy.TellMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC57CF9212D865000B738B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SH46749RP;
+				INFOPLIST_FILE = TellMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = academy.TellMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC57CB8212D864D00B738B3 /* Build configuration list for PBXProject "TellMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC57CED212D865000B738B3 /* Debug */,
+				BEC57CEE212D865000B738B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC57CEF212D865000B738B3 /* Build configuration list for PBXNativeTarget "TellMe WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC57CF0212D865000B738B3 /* Debug */,
+				BEC57CF1212D865000B738B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC57CF3212D865000B738B3 /* Build configuration list for PBXNativeTarget "TellMe WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC57CF4212D865000B738B3 /* Debug */,
+				BEC57CF5212D865000B738B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC57CF7212D865000B738B3 /* Build configuration list for PBXNativeTarget "TellMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC57CF8212D865000B738B3 /* Debug */,
+				BEC57CF9212D865000B738B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC57CB5212D864D00B738B3 /* Project object */;
+}
