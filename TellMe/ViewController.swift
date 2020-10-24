@@ -54,6 +54,8 @@ class ViewController: UIViewController {
             let messageDict = ["message": message]
             WCSession.default.sendMessage(messageDict, replyHandler: nil, errorHandler: nil)
             
+        } else {
+            print("WCSession is not disponible")
         }
         
         lastMessage = CFAbsoluteTimeGetCurrent()
